@@ -4,3 +4,6 @@
 <li>Title: <%=@article.title%></li>
 <li>Description: <%= @article.description%></li>
 </ul>
+
+<%= link_to 'Back to article list', articles_path%> |
+<%= link_to 'Edit selected article', edit_article_path%>
